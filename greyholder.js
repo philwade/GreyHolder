@@ -24,13 +24,13 @@ $.fn.greyHolder = function(params){
                 $(this).addClass(defaults.inactive_class);
             }
 
-            $(this).focus(function(){
+            $(this).bind('focus.greyHolder', function(){
                 $(this).val('');
                 $(this).addClass(defaults.active_class);
                 $(this).removeClass(defaults.inactive_class);
             });
 
-            $(this).blur(function(){
+            $(this).bind('blur.greyHolder', function(){
                 var value = $(this).val();
 
                 if(value == '')
