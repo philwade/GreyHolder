@@ -1,4 +1,11 @@
-//
+/*
+ * GreyHolder v0.1 - jQuery Plugin
+ * Copyright (c) 2012 Phil Wade <phil@philwade.org>
+ *
+ * Provided under the MIT License: http://www.opensource.org/licenses/mit-license.php
+ *
+ * For the latest version, visit bitbucket: https://bitbucket.org/pivotal/greyholder
+ */
 (function($){
 
 $.fn.greyHolder = function(params){

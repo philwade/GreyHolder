@@ -29,3 +29,8 @@ GreyHolder also takes a few settings if the defaults don't work for you.
         'active_class' : '', #class added to input when it becomes active
         'default_value_attribute': 'default' #the html attribute used to store the default value for an input
     });
+
+### License & stuff
+v0.1
+Copyright (c) 2012 Phil Wade <phil@philwade.org>
+http://www.opensource.org/licenses/mit-license.php
