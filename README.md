@@ -32,5 +32,7 @@ GreyHolder also takes a few settings if the defaults don't work for you.
 
 ### License & stuff
 v0.1
+
 Copyright (c) 2012 Phil Wade <phil@philwade.org>
-http://www.opensource.org/licenses/mit-license.php
+
+MIT licensed: http://www.opensource.org/licenses/mit-license.php
