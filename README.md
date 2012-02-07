@@ -1,6 +1,6 @@
 GreyHolder
 =========
-GreyHolder is jQuery plugin that provides a nice way of displaying inactive default values for html inputs. When active, the input 'wakes up' and displays text normally. When it loses focus, if unfilled, the default value and style will return.
+GreyHolder is jQuery plugin that provides a nice way to displaying 'greyed out' inactive default values for html inputs. When active, the input 'wakes up' and displays text normally. When it loses focus, if unfilled, the default value and inactive style return.
 
 Quickstart
 ---------
