@@ -25,9 +25,16 @@ $.fn.greyHolder = function(params){
             }
 
             $(this).bind('focus.greyHolder', function(){
-                $(this).val('');
-                $(this).addClass(defaults.active_class);
-                $(this).removeClass(defaults.inactive_class);
+                var value = $(this).val();
+
+                // When focused, only clear the input if it contains the default
+                // value.
+                if(value == $(this).attr(defaults.default_value_attribute))
+                {
+                    $(this).val('');
+                    $(this).addClass(defaults.active_class);
+                    $(this).removeClass(defaults.inactive_class);
+                }
             });
 
             $(this).bind('blur.greyHolder', function(){
